@@ -1,50 +1,30 @@
-
+import java.util.Scanner;
 
 public class Main {
 
+    static Scanner userinput = new Scanner(System.in);
     public static void main(String[] args) {
 
-        String i, k;
-
-        i = "Is that,";
-        k = "what you think?";
-
-        i = i.toUpperCase();
-
-        k = k.toUpperCase();
-
-        System.out.format(i);
-
-        System.out.format("%30s", "\t" + k + "\n".toLowerCase());
+        String firstName, middleName, lastName;
 
 
+        System.out.println("What is your first name?");
+        firstName = userinput.next();
 
-     String s;
+        System.out.println("What is your middle name?");
+        middleName = userinput.next();
 
-     s =
+        System.out.println("What is your last name?");
+        lastName = userinput.next();
 
-                     "████████████████████████████████████████\n" +
-                     "████████████████████████████████████████\n" +
-                     "██████▀░░░░░░░░▀████████▀▀░░░░░░░▀██████\n" +
-                     "████▀░░░░░░░░░░░░▀████▀░░░░░░░░░░░░▀████\n" +
-                     "██▀░░░░░░░░░░░░░░░░▀▀░░░░░░░░░░░░░░░░▀██\n" +
-                     "██░░░░░░░░░░░░░░░░░░░▄▄░░░░░░░░░░░░░░░██\n" +
-                     "██░░░░░░░░░░░░░░░░░░█░█░░░░░░░░░░░░░░░██\n" +
-                     "██░░░░░░░░░░░░░░░░░▄▀░█░░░░░░░░░░░░░░░██\n" +
-                     "██░░░░░░░░░░████▄▄▄▀░░▀▀▀▀▄░░░░░░░░░░░██\n" +
-                     "██▄░░░░░░░░░████░░░░░░░░░░█░░░░░░░░░░▄██\n" +
-                     "████▄░░░░░░░████░░░░░░░░░░█░░░░░░░░▄████\n" +
-                     "██████▄░░░░░████▄▄▄░░░░░░░█░░░░░░▄██████\n" +
-                     "████████▄░░░▀▀▀▀░░░▀▀▀▀▀▀▀░░░░░▄████████\n" +
-                     "██████████▄░░░░░░░░░░░░░░░░░░▄██████████\n" +
-                     "████████████▄░░░░░░░░░░░░░░▄████████████\n" +
-                     "██████████████▄░░░░░░░░░░▄██████████████\n" +
-                     "████████████████▄░░░░░░▄████████████████\n" +
-                     "██████████████████▄▄▄▄██████████████████\n" +
-                     "████████████████████████████████████████\n" +
-                     "████████████████████████████████████████\n";
+        String wholeName = firstName + " " +  middleName + " " + lastName;
 
-     System.out.println(s);
+        char j = '⛏';
+
+        char g = '\uD83D';
+        System.out.println( g + "Hello, " + wholeName + ". You're doing better than you think you are. " + j);
+
+
 
 
     }
