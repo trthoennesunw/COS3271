@@ -14,7 +14,7 @@ public class Stuff {
         s = userinput.nextInt();
 
         s = s + 5;
-        
+
         System.out.println("In 5 years you will be " + s + " years old.");
 
         System.out.println("It is " + ((s < 20) && (s > 12)) +" that you are a teenager");
