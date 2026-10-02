@@ -3,9 +3,13 @@ import java.util.Scanner;
 public class LetterGradesAPP {
 
     static Scanner userinput = new Scanner(System.in);
+
     public static void main(String[] args) {
+
         System.out.print("Enter a test score:");
+
         int testscore = userinput.nextInt();
+
         //note that in ASCII ... A is 65, B is 66, C is 67, etc.
         //this converts from grade to ASCII value ... the higher the grade the lower the ASCII value
         int ascii = 74 - (testscore / 10);
