@@ -7,7 +7,7 @@ public class DoubleFactorialAPP {
         int choice;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Invalid input. Enter a number from 0-20: ");
+        System.out.print("Enter a number from 0-20: ");
 
          while(!scanner.hasNextInt()) {
             System.out.print("Invalid input. Enter a number from 0-20: ");
